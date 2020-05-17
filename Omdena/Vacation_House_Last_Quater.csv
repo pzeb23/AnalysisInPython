@@ -1,0 +1,25 @@
+Variable Name,Survey,File,Variable description,Formula ,Flag name,Section number,Section description,Section part,First year,First Quarter,Last quarter,Last year,Comment
+NEWID,INTERVIEW,FMLI,Public use microdata identifier,,,,"CU characteristics, income, weights, and summary level expenditures.",,1984,1.0,,,
+OWNVACP,INTERVIEW,FMLI,"Expenditures on owned vacation homes last quarter including mortgage interest, insurance, taxes, maintenance, and
+miscellaneous household equipment
+ VOTHRLOP+VMISCHEP
+
+This variable includes expenditures related to vacation homes. Because these types of e","SUM (0, VOTHRLOP, VMISCHEP)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+VOTHRLOP,INTERVIEW,FMLI,"Expenditures on owned vacation homes last quarter including mortgage interest, insurance, taxes, and maintenance","SUM (210902,220112,220122,220212,220312,220314,,220902,230119,230123,230152,230902,240113,240123,240214,240223,240313,240323,320613,320623,320633,",,,"CU characteristics, income, weights, and summary level expenditures.",,2007,2.0,,,
+VMISCHEP,INTERVIEW,FMLI,Expenditures on miscellaneous household equipment for owned vacation homes last quarter,SUM (690243),,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+UTILOWNP,INTERVIEW,FMLI,"Expenditures on owned vacation home utilities last quarter including water, trash, electricity, and fuels
+VFUELOIP+VOTHRFLP+VELECTRP+VNATLGAP
+ +VWATERPP","SUM (0, VFUELOIP, VOTHRFLP, VELECTRP, VNATLGAP, VWATERPP)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+VFUELOIP,INTERVIEW,FMLI,Expenditures on fuel oil for owned vacation homes last quarter,SUM (250113),,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+VOTHRFLP,INTERVIEW,FMLI,Expenditures on other fuels for owned vacation homes last quarter,"SUM (250213,250223,250903)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+VELECTRP,INTERVIEW,FMLI,Expenditures on electricity for owned vacation homes last quarter,SUM (260113),,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+VNATLGAP,INTERVIEW,FMLI,Expenditures on natural gas for owned vacation homes last quarter,SUM (260213),,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+VWATERPP,INTERVIEW,FMLI,Expenditures on water and public services for owned vacation homes last quarter,"SUM (270213,270413,270903)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+MRTPRNOP,INTERVIEW,FMLI,Outlays on owned vacation home mortgage principle last quarter,"SUM (830102,830202,830204,880320)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+UTILRNTP,INTERVIEW,FMLI,"Expenditures on rented vacation home utilities last quarter including water, trash, electricity, and fuels
+RFUELOIP+ROTHRFLP+RELECTRP+RNATLGAP+RWATERPP","SUM (0, RFUELOIP, ROTHRFLP, RELECTRP, RNATLGAP, RWATERPP)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+RFUELOIP,INTERVIEW,FMLI,Expenditures on fuel oil for rented vacation homes last quarter,SUM (250114),,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+ROTHRFLP,INTERVIEW,FMLI,Expenditures on other fuels for rented vacation homes last quarter,"SUM (250214,250224,250904)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+RELECTRP,INTERVIEW,FMLI,Expenditures on electricity for rented vacation homes last quarter 260114,SUM (260114),,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+RNATLGAP,INTERVIEW,FMLI,Expenditures on natural gas for rented vacation homes last quarter,SUM (260214),,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+RWATERPP,INTERVIEW,FMLI,Expenditures on water and public services for rented vacation homes,"SUM (270214,270414,270904)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,

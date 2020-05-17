@@ -1,0 +1,25 @@
+Variable Name,Survey,File,Variable description,Formula ,Flag name,Section number,Section description,Section part,First year,First Quarter,Last quarter,Last year,Comment
+NEWID,INTERVIEW,FMLI,Public use microdata identifier,,,,"CU characteristics, income, weights, and summary level expenditures.",,1984,1.0,,,
+TTOTALP,INTERVIEW,FMLI,Total of all trip expenditures last quarter,"SUM (0, TFOODTOP, TALCBEVP, TOTHRLOP, TTRANPRP, TENTRMNP)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+TFOODTOP,INTERVIEW,FMLI,Total trip expenditures on food last quarter including both restaurant food and food prepared by CU,"SUM (0, TFOODAWP, TFOODHOP)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+TFOODAWP,INTERVIEW,FMLI,"Food and non-alcoholic beverages last quarter at restaurants, cafes, and fast food places during out-of-town trips",SUM (190903),,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+TFOODHOP,INTERVIEW,FMLI,Food and beverages purchased and prepared by CU last quarter during out-of-town trips,SUM (190904),,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+TALCBEVP,INTERVIEW,FMLI,"Total trip expenditures last quarter on alcoholic beverages at restaurants, cafes, and bars 200900",SUM (200900),,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+TOTHRLOP,INTERVIEW,FMLI,"Total trip expenditures on lodging last quarter including rent for vacation home, and motels",SUM (210210),,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+TTRANPRP,INTERVIEW,FMLI,"Total trip expenditures on transportation last quarter including airfare, local transportation, tolls and parking fees, and car rentals
+TGASMOTP+TVRENTLP+TTRNTRIP","SUM (0, TGASMOTP, TVRENTLP, TTRNTRIP)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+TGASMOTP,INTERVIEW,FMLI,Trip expenditures on gas and oil last quarter,"SUM (470113,470212)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+TVRENTLP,INTERVIEW,FMLI,"Trip expenditures on vehicle rentals and other fees last quarter
+TCARTRKP+TOTHVHRP+TOTHTREP","SUM (0, TCARTRKP, TOTHVHRP, TOTHTREP)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+TCARTRKP,INTERVIEW,FMLI,Trip expenditures on car or truck rental last quarter,"SUM (520512,520522)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+TOTHVHRP,INTERVIEW,FMLI,Trip expenditures on other vehicle rentals last quarter 520905 520906,SUM (520905),,,"CU characteristics, income, weights, and summary level expenditures.",,2006,2.0,,,
+TOTHTREP,INTERVIEW,FMLI,"Trip expenditures last quarter for other transportation expenses including parking fees, and tolls","SUM (520532,520542)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+TTRNTRIP,INTERVIEW,FMLI,"Trip expenditures last quarter for public transportation, including airfares
+TFAREP+TLOCALTP","SUM (0, TFAREP, TLOCALTP)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+TFAREP,INTERVIEW,FMLI,"Trip expenditures last quarter on transportation fares including airfare, intercity bus, train, and ship fare (TAIRFARP+TOTHFARP)","SUM (0, TAIRFARP, TOTHFARP)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+TAIRFARP,INTERVIEW,FMLI,Trip expenditures on airfare last quarter,SUM (530110),,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+TOTHFARP,INTERVIEW,FMLI,"Tip expenditures last quarter on other transportation fares including intercity bus and train fare, and ship fare","SUM (530210,530510,530901)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+TLOCALTP,INTERVIEW,FMLI,"Trip expenditures last quarter on local transportation including taxis, buses etc.","SUM (530312,530411)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+TENTRMNP,INTERVIEW,FMLI,"Total trip expenditures on entertainment last quarter including sporting events, movies, and recreational vehicle rentals TFEESADP+TOTHENTP","SUM (0, TFEESADP, TOTHENTP)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+TFEESADP,INTERVIEW,FMLI,"Trip expenditures on miscellaneous entertainment last quarter including recreation expenses, participation sport fees, and admission fees to sporting events and movies","SUM (610900,620122,620212,620222,620903)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+TOTHENTP,INTERVIEW,FMLI,"Trip expenditures on recreational vehicle rentals last quarter including campers, boats, and other vehicles","SUM (520907,620909,620919)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,

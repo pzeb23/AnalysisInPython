@@ -1,0 +1,25 @@
+Variable Name,Survey,File,Variable description,Formula ,Flag name,Section number,Section description,Section part,First year,First Quarter,Last quarter,Last year,Comment
+NEWID,INTERVIEW,FMLI,Public use microdata identifier,,,,"CU characteristics, income, weights, and summary level expenditures.",,1984,1.0,,,
+OWNVACC,INTERVIEW,FMLI,"Expenditures on owned vacation homes this quarter including mortgage interest, insurance, taxes, maintenance, and
+miscellaneous household equipment
+ VOTHRLOP+VMISCHEP
+
+This variable includes expenditures related to vacation homes. Because these types of e","SUM (0, VOTHRLOC, VMISCHEC)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+VOTHRLOC,INTERVIEW,FMLI,"Expenditures on owned vacation homes this quarter including mortgage interest, insurance, taxes, and maintenance","SUM (210902,220112,220122,220212,220312,220314,220322,220902,230119,230123,230152,230902,240113,240123,240214,240223,240313,240323,320613,320623,320633,340912,880310,990940)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,1.0,2007.0,
+VMISCHEC,INTERVIEW,FMLI,Expenditures on miscellaneous household equipment for owned vacation homes this quarter,SUM (690243),,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+UTILOWNC,INTERVIEW,FMLI,"Expenditures on owned vacation home utilities this quarter including water, trash, electricity, and fuels
+VFUELOIC+VOTHRFLC+VELECTRC+VNATLGAC
+ +VWATERPC","SUM (0, VFUELOIC, VOTHRFLC, VELECTRC, VNATLGAC, VWATERPC)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+VFUELOIC,INTERVIEW,FMLI,Expenditures on fuel oil for owned vacation homes this quarter,SUM (250113),,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+VOTHRFLC,INTERVIEW,FMLI,Expenditures on other fuels for owned vacation homes this quarter,"SUM (250213,250223,250903)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+VELECTRC,INTERVIEW,FMLI,Expenditures on electricity for owned vacation homes this quarter,SUM (260113),,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+VNATLGAC,INTERVIEW,FMLI,Expenditures on natural gas for owned vacation homes this quarter,SUM (260213),,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+VWATERPC,INTERVIEW,FMLI,Expenditures on water and public services for owned vacation homes this quarter,"SUM (270213,270413,270903)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+MRTPRNOC,INTERVIEW,FMLI,Outlays on owned vacation home mortgage principle this quarter,"SUM (830102,830202,830204,880320)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+UTILRNTC,INTERVIEW,FMLI,"Expenditures on rented vacation home utilities this quarter including water, trash, electricity, and fuels
+RFUELOIC+ROTHRFLC+RELECTRC+RNATLGAC+RWATERPC","SUM (0, RFUELOIC, ROTHRFLC, RELECTRC, RNATLGAC, RWATERPC)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+RFUELOIC,INTERVIEW,FMLI,Expenditures on fuel oil for rented vacation homes this quarter,SUM (250114),,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+ROTHRFLC,INTERVIEW,FMLI,Expenditures on other fuels for rented vacation homes this quarter,"SUM (250214,250224,250904)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+RELECTRC,INTERVIEW,FMLI,Expenditures on electricity for rented vacation homes this quarter,SUM (260114),,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+RNATLGAC,INTERVIEW,FMLI,Expenditures on natural gas for rented vacation homes this quarter,SUM (260214),,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
+RWATERPC,INTERVIEW,FMLI,Expenditures on water and public services for rented vacation homes this quarter,"SUM (270214,270414,270904)",,,"CU characteristics, income, weights, and summary level expenditures.",,1999,2.0,,,
