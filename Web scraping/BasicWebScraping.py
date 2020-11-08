@@ -62,7 +62,7 @@ for i in range(len(containers)):
     }
 
     rezultat = myData.insert_one(dane)
-    print('Wstawiono: {0}'.format(rezultat.inserted_id))
+    print('Inserted: {0}'.format(rezultat.inserted_id))
 
     #with open('plikPiotrZ'+str(i)+'.json',"w") as plik:
         #json.dump(dane, plik)
